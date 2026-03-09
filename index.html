@@ -66,6 +66,7 @@
         .progress-bar { width: 200px; height: 6px; background: #334155; border-radius: 3px; overflow: hidden; margin-top: 16px; }
         .progress-fill { height: 100%; background: linear-gradient(90deg, #4f46e5, #8b5cf6); border-radius: 3px; transition: width 0.3s ease; }
     </style>
+    <link rel="manifest" href="manifest.json">
 </head>
 <body class="bg-slate-900 text-white min-h-screen">
     <!-- Sidebar -->
@@ -3956,5 +3957,10 @@ ${content}
             }, 100);
         }
     </script>
+    <script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('service-worker.js');
+}
+</script>
 </body>
 </html>
