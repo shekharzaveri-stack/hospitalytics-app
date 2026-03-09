@@ -1,6 +1,7 @@
 {
   "name": "HospitaLytics",
   "short_name": "HospitaLytics",
+  "description": "A hospital analytics dashboard..."
   "start_url": "/hospitalytics-app/",
   "display": "standalone",
   "theme_color": "#2c3e50",
