@@ -1,11 +1,9 @@
 {
   "name": "HospitaLytics",
   "short_name": "HospitaLytics",
-  "description": "A hospital analytics dashboard..."
+  "description": "A hospital analytics dashboard for tracking patient flow, admissions, and operational insights.",
   "start_url": "/hospitalytics-app/",
   "display": "standalone",
-  "theme_color": "#2c3e50",
-"background_color": "#2c3e50"
   "background_color": "#0f172a",
   "theme_color": "#4f46e5",
   "icons": [
