@@ -123,6 +123,44 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Hospitalytics">
     <meta name="theme-color" content="#2c3e50">
+    <style>
+
+/* FINAL MOBILE FIX */
+
+html, body{
+  max-width:100%;
+  overflow-x:hidden;
+}
+
+@media (max-width:768px){
+
+  aside{
+    position:fixed;
+    left:-260px;
+    top:0;
+    height:100%;
+    width:260px;
+    z-index:1000;
+  }
+
+  main{
+    margin-left:0 !important;
+    width:100% !important;
+    padding:12px !important;
+  }
+
+  .grid{
+    grid-template-columns:1fr !important;
+  }
+
+  canvas{
+    width:100% !important;
+    height:auto !important;
+  }
+
+}
+
+</style>
 </head>
 <body class="bg-slate-900 text-white min-h-screen">
     <!-- Sidebar -->
